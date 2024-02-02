@@ -1,0 +1,14 @@
+
+JIKA MENGALAMI ERROR 
+
+turso auth login
+Error: failed to open auth URL: exec: "xdg-open,x-www-browser,www-browser": executable file not found in $PATH
+If the issue persists, try running turso auth login --headless
+
+
+SOLUSI 
+instal utilitas xdg ( sudo apt install xdg-utils) dan
+instal wslu dengan mengikuti petunjuk di sini: https://wslutiliti.es/wslu/install.html (Gulir ke bawah ke **Ubuntu Warning**. Ikuti langkah-langkah untuk versi PPA:
+sudo add-apt-repository ppa:wslutilities/wslu
+sudo apt update
+sudo apt install wslu
